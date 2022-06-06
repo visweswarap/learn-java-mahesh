@@ -1,28 +1,27 @@
 public class Practice {
     public static void main(String[] args) {
-        int a = 10;
-        int b = 20;
-        int c = b-a;
-        int d = a*b;
-        int e = b/a;
-        System.out.println("20-10 amount is "+ c);
-        System.out.println("addittion amount "+d);
-        System.out.println("Multiplication "+ d);
-        System.out.println("Division " + e);
-        if(a < b){
-            System.out.println("a is lesthan b");
-        }
-        else if(a > b){
-            System.out.println("a is grater than b");
-        }
-        else {
-             System.out.println("a is equals to b");
-            }
-        if(a == 10){
-            if(b == 20){
-                System.out.println("A = 10 AND b = 20");
+        String examrst = "PASS";
+        if(examrst == "PASS"){
+        System.out.println("YOUR SELECTED FOR FORTHER ROUNDS");
+        String round1 = "PASS";
+        if(round1 == "PASS") {
+            System.out.println("YOUR SELECTED FOR SECOND ROUND");
+            String round2 = "PASS";
+            if (round2 == "PAS") {
+                System.out.println("YOUR SELECTED FOR THIRD ROUND");
+            } else {
+                System.out.println("YOUR FAIL IN SECOND ROUND");
             }
         }
-            }
+        else{
+            System.out.println("YOUR FAIL IN FIRST ROUND");
         }
+
+        }
+        else{
+            System.out.println("YOUR GO TO HOME");
+        }
+        }
+            }
+
 
