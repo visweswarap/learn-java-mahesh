@@ -2,7 +2,10 @@ Concepts:
     Core concepts:
     ==============
      - Operators:
-        =, +, -, %, *, ==, <, >, <=, >=, &&(AND), ||(OR)
+        Assignment: =
+        Arthamatic: +, -, %, *,
+        Comparator: ==, <, >, <=, >=,
+        Logical   : &&(AND), ||(OR)
 	 - Data types,
 	    Ex: "asdfasdgf", 123, 12.01, 'a', True,False,
 	            1222124123123 (Long),
