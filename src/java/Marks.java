@@ -1,6 +1,8 @@
 import java.util.Scanner;
 public class Marks {
     public static void main(String[] args) {
+        String user = "mahesh";
+        String password = "mahesh@123";
        Scanner marks = new Scanner(System.in);
        System.out.println("ENTER TOTAL MARKS IN FIRST LANGUAGE: ");
         int f = marks.nextInt();
@@ -28,5 +30,27 @@ public class Marks {
         if(total>=400 && total<500){
             System.out.println("STUDENT GRADE IS B");
         }
+
+        /*
+        if(Not matched){
+            wrong username/password. Two tries left. Try again.
+            Enter user:
+            Enter pass:
+            if (Not matched){
+                wrong username/password. Last chance before account lock. Try again.
+                Enter user:
+                Enter pass:
+                if (Not matched){
+                    your account has been locked.  Please visit nearest branch.
+                } else {
+                    Success! Your account balance is Rs.5000/-
+                }
+            } else {
+                Success! Your account balance is Rs.5000/-
+            }
+        } else {
+            Success! Your account balance is Rs.5000/-
+        }
+         */
     }
 }

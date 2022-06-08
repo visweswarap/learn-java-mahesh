@@ -9,6 +9,18 @@ public class Operators {
         } else {
             System.out.println("Nothing matched....");
         }
+
+        // Ternary
+        int x = 0;
+        if(a==10){
+            x = a;
+        } else {
+            x = b;
+        }
+        String y = a==10 ? "TEN" : "Other";
+        // <condition> ? <Value if condition success> : <Value if condition failed>
+
+        System.out.println(x);
     }
 
 }

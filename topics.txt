@@ -1,3 +1,7 @@
+
+IDE: Interactive Development Environment
+    IntelliJ Community
+
 Concepts:
     Core concepts:
     ==============
@@ -10,15 +14,21 @@ Concepts:
 	    Ex: "asdfasdgf", 123, 12.01, 'a', True,False,
 	            1222124123123 (Long),
 	            1234123413241324.51235532523(BigDecimal)
-	- Access modifiers,
+	- Access modifiers
+	    Private, Public, Protected, default
+	- Variables
+	    Local, Global, Static vs instance
 	- Statements(Assignment, Conditional, Looping),
-	        1. If, if-else, Nested if-else, Ternary
-	        2. for loop, while, for-each
+	        1. If, if-else, Nested if-else,
+	        2. Ternary
+	        3. for loop, while,
+	        4. for-each
     - Input/Output: ***
 	- Object Oriented Programming:
 	    1. Classes & Objects
 	        Class: a blueprint
 	        Object: outcome / output of that blueprint
+	        - Wrapper classes (Integer, Float, Double, Long, Char)
 	    2. Encapsulation
 	    3. Polymorphism
 	        Poly-morph-ism
