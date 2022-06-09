@@ -13,6 +13,6 @@ public class Banking {
         System.out.println("ENTER THE WITHDRAWAL  AMOUNT ");
         int with1 = scan.nextInt();
         bank.withdraw(with1);
-        System.out.println("YOUR ACCOUNT BALANE IS " + bank.getcurrentbal());
+        System.out.println("YOUR ACCOUNT BALANE IS " + bank.getCurrentbal());
     }
 }
