@@ -17,6 +17,8 @@ public class OopsPractice {
         System.out.println(iphone12Glass.height);
         System.out.println("==============================");
 
+        float raw = iphone12Glass.requiredRawMeteriel();
+
         OopsPractice obj = new OopsPractice();
         obj.abc = 1234124;
         System.out.println(obj.abc);
@@ -24,6 +26,17 @@ public class OopsPractice {
 
         OopsPractice obj1 = new OopsPractice();
         obj1.abc = 666666;
+
+
+        Encapsulation encObj = new Encapsulation();
+        encObj.setId(123);
+        int id = encObj.getId();
+
+        Encapsulation encObj1 = new Encapsulation();
+
+        System.out.println(encObj.hashCode());
+        System.out.println(encObj1.hashCode());
+
     }
 
     static void printMessage(String message){

@@ -16,4 +16,16 @@ public class TamperedGlass {
     TamperedGlass(){
 
     }
+
+    float requiredRawMeteriel(){
+        return width*height*thickness;
+    }
+
+    void abc(String s, int i){
+
+    }
+
+    void abc(String s){
+
+    }
 }
