@@ -57,12 +57,11 @@
          -- Trees --
  Exceptions
 
-Advanced Java (Web and Database) -
-JDBC +
-
-	Servlet +
-	    HttpMethods: GET, PUT, POST, DELETE
-	JSP
+### Advanced Java (Web and Database) -
+  - JDBC +
+  - Servlet +
+        HttpMethods: GET, PUT, POST, DELETE
+  - JSP
 
 Spring MVC
 Important Annotations
