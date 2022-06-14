@@ -1,7 +1,5 @@
 package oops.inheritance;
 
-import jdk.swing.interop.SwingInterOpUtils;
-
 public class Inherit
 {
     int stno,empid,accno,marks,accbal;

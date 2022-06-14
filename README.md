@@ -24,6 +24,9 @@
   - for loop, while,
   - for-each
 - **Input/Output**: ***
+- **Packages**
+- Constructors, Methods
+  - Abstract Classes & Abstract Methods
 - **Object Oriented Programming**:
   - **Classes & Objects** 
     - Class: a blueprint 
@@ -31,8 +34,10 @@
     - Wrapper classes (Integer, Float, Double, Long, Char)
   - **Encapsulation**
     - Capsuling the data
- - **Inheritance**
-   - Interfaces, Abstract classes, Concrete classes
+  - **Inheritance**
+    - Interfaces, 
+    - Abstract classes, 
+    - Concrete classes
 
   - **Polymorphism**
     - Poly-morph-ism
@@ -46,7 +51,6 @@
   - **Abstraction**
     - Hiding unwanted implemented details.
 
-- Constructors, Methods
 - HashCode & Equals
 - Collections & Data Structure:
      Collection

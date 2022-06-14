@@ -1,7 +1,5 @@
 package oops;
 
-import jdk.swing.interop.SwingInterOpUtils;
-
 public class Construct2 {
     int empid;
     String empname;
