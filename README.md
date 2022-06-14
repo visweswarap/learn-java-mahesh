@@ -38,7 +38,6 @@
     - Interfaces, 
     - Abstract classes, 
     - Concrete classes
-
   - **Polymorphism**
     - Poly-morph-ism
     - Runtime (Dynamic) - Method overriding
@@ -67,17 +66,30 @@
         HttpMethods: GET, PUT, POST, DELETE
   - JSP
 
-Spring MVC
-Important Annotations
-@Override
-@WebServlet
-@RestController
-@Controller / @WebServlet
-@Repository
-@Service
+  ### Spring MVC
+    - Important Annotations
+    - @Override
+    - @WebServlet
+    - @RestController
+    - @Controller / @WebServlet
+    - @Repository
+    - @Service
 
-Frameworks:
-Struts 1.x and 2.x -> Dead Framework
-Spring 1.x, 2.x, 3.x, 4.x, 5.x(Current)
+### Frameworks:
+    Struts 1.x and 2.x -> Dead Framework
+    Spring 1.x, 2.x, 3.x, 4.x, 5.x(Current)
 
 Groovy
+
+
+# Version Control System
+ - SVN - Sub version
+ - Git (90%)
+   - Github -> We use
+   - bitbucket
+   - version one
+ - perforce
+
+
+
+  ========================================

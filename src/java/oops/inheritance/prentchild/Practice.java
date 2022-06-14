@@ -1,5 +1,9 @@
 package oops.inheritance.prentchild;
 
+import oops.inheritance.interfaces.DatabaseConnection;
+import oops.inheritance.interfaces.MySQLConnection;
+import oops.inheritance.interfaces.PostgreSqlConnection;
+
 public class Practice {
     public static void main(String[] args) {
 
@@ -14,6 +18,9 @@ public class Practice {
         vish.changeLocation("Hyderabad");
         System.out.println(vish.location);
         System.out.println(vish.nationality);
+        System.out.println(vish.locationChangeYear);
+
+        Father parent = new Son();
 
         System.out.println("\n================ Child ===============");
         Child jass = new Child();
@@ -23,5 +30,6 @@ public class Practice {
         jass.migrateCountry("United Sates of America");
         System.out.println(jass.location);
         System.out.println(jass.nationality);
+
     }
 }
