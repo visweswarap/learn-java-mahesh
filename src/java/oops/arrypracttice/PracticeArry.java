@@ -1,7 +1,7 @@
 package oops.arrypracttice;
 import java.util.Scanner;
 
-public class Practicearry
+public class PracticeArry
 {
     public static void main(String[] args)
     {
@@ -14,7 +14,7 @@ public class Practicearry
         {
             array[j]=sc.nextInt();
         }
-        for(int index:array)
+        for(int index : array)
         {
             System.out.println("ARRAY ELEMENTS ARE "+index);
         }

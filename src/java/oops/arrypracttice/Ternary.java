@@ -7,7 +7,7 @@ public class Ternary {
         System.out.println("ENTER A NUMBER FOR CHECK IT IS ODD OR EVEN NUMBER:  ");
         int ch = sc.nextInt();
          String ch1;
-         ch1 = ch%2==0?"EVEN":"EVEN";
+         ch1 = ch%2==0?"EVEN":"ODD";
 
          if(ch1.equals("EVEN"))
          {

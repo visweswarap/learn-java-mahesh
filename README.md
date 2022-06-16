@@ -13,7 +13,9 @@
   - Comparator: ==, <, >, <=, >=,
   - Logical   : &&(AND), ||(OR)
 - **Data types**,
-  - Ex: "asdfasdgf", 123, 12.01, 'a', True,False, 1222124123123 (Long), 1234123413241324.51235532523(BigDecimal)
+  - Arrays
+  - Others
+    - Ex: "asdfasdgf", 123, 12.01, 'a', True,False, 1222124123123 (Long), 1234123413241324.51235532523(BigDecimal)
 - **Access modifiers**
   - Private, Public, Protected, default
 - **Variables**

@@ -31,5 +31,9 @@ public class Practice {
         System.out.println(jass.location);
         System.out.println(jass.nationality);
 
+        DatabaseConnection connection = new MySQLConnection();
+
+        connection.produceConnection();
+
     }
 }
