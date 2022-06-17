@@ -1,14 +1,14 @@
-package Collections;
+package collections;
 
 import java.util.ArrayList;
 
-class Employee
+class Employee1
 {
     private int empid;
     private String empname;
     private int empage;
     private  long empsal;
-    public Employee(int empid,String empname,int empage,long empsal)
+    public Employee1(int empid, String empname, int empage, long empsal)
     {
         this.empid = empid;
         this.empname = empname;
@@ -50,12 +50,12 @@ class Employee
 }
 public class PracticeArraylist2 {
     public static void main(String[] args) {
-        ArrayList<Employee> employee = new ArrayList<Employee>();
-        employee.add(new Employee(10, "MAHESH", 36, 350000));
-        employee.add(new Employee(11, "VISSU", 35, 400000));
-        employee.add(new Employee(12, "RAJESH", 35, 450000));
+        ArrayList<Employee1> employee = new ArrayList<Employee1>();
+        employee.add(new Employee1(10, "MAHESH", 36, 350000));
+        employee.add(new Employee1(11, "VISSU", 35, 400000));
+        employee.add(new Employee1(12, "RAJESH", 35, 450000));
 
-        for (Employee s : employee) {
+        for (Employee1 s : employee) {
             System.out.println("EMPLOYEE ID IS : " + s.getEmpid()+" EMPLOYEE NAME IS : "+s.getEmpname()
                     +" EMPLOYEE AGE IS : "+s.getEmpage()+" EMPLOYEE SALARY P/A IS :"+s.getEmpsal());
         }

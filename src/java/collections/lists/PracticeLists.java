@@ -3,6 +3,7 @@ package collections.lists;
 import collections.Employee;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 public class PracticeLists {
@@ -29,5 +30,15 @@ public class PracticeLists {
         for (Employee employee : empArray) {
             System.out.println(employee.getName());
         }
+
+        empList.add(0, null);
+
+        ArrayList<Employee> emlList1 = new ArrayList<>();
+        emlList1.add(new Employee(1, 1000, "sdfsdf", "dev"));
+        emlList1.add(new Employee(2, 1000, "dfgdfgh", "qa"));
+        empList.addAll(emlList1);
+
+        List<Employee> employeeList = new LinkedList<>();
+
     }
 }
