@@ -1,5 +1,7 @@
 package basicconcepts;
 
+import oops.inheritance.prentchild.Child;
+
 public class Arrays {
 
     public static void main(String[] args) {
@@ -24,6 +26,13 @@ public class Arrays {
             System.out.println(a);
         }
 
+        Child[] childArr = new Child[10];
+        Child ch = new Child();
+        childArr[0] = ch;
+
+        for(Child child : childArr){
+            System.out.println(child.locationChangeYear);
+        }
 
 
     }

@@ -54,13 +54,13 @@
 
 - HashCode & Equals
 - Collections & Data Structure:
-     Collection
-         List (ArrayList, LinkedList)
-         Set (HashSet)
-         Maps (HashMap)
-         -- Table (HashTable)
-         -- Trees --
- Exceptions
+  - Collection
+    - List (ArrayList, LinkedList, Vector)
+    - Set (HashSet)
+    - Maps (HashMap)
+      - Table (HashTable)
+      - Trees --
+- Exceptions
 
 ### Advanced Java (Web and Database) -
   - JDBC +
