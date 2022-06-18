@@ -77,10 +77,9 @@ public class PracticeLinkl {
         fruit.put("Third","Mango");
         fruit.put("Fourth","Banana");
         fruit.put("Fifth","Water melon");
-        System.out.println(fruit.get("First"));
         for(Map.Entry<String,String> pr :fruit.entrySet())
         {
-            System.out.println(pr.getKey()+"::"+pr.getValue());
+            System.out.println(pr.getKey()+" :: "+pr.getValue());
         }
 
 
