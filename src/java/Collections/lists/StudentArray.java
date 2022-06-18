@@ -95,10 +95,16 @@ public class StudentArray {
         employee.add(new EmpDetails(11, "VENU", 36, 300000));
         employee.add(new EmpDetails(12, "VISH", 37, 400000));
         employee.add(new EmpDetails(13, "RAJ", 35, 500000));
-        EmpDetails emp1 = new EmpDetails(14, "MAHESH", 36, 350000);
+        EmpDetails emp1 = new EmpDetails(16, "MAHESH", 36, 250000);
         ll.add(emp1);
         System.out.println("**********************( - EMPLOYEE DETAILS - )++++++++****************++++++");
         for(EmpDetails empd : employee)
+        {
+            System.out.println("EMPLOYEE ID  IS : " + empd.getEmpid() + "  EMPLOYEE NAME IS : " + empd.getEmpname() + " EMPLOYEE AGE IS : " +
+                    empd.getEmpage() + " EMPLOYEE SALARY P/A IS : " + empd.getEmpsal());
+        }
+        System.out.println("**********************( - EMPLOYEE DETAILS USING LL- )++++++++****************++++++");
+        for(EmpDetails empd : ll)
         {
             System.out.println("EMPLOYEE ID  IS : " + empd.getEmpid() + "  EMPLOYEE NAME IS : " + empd.getEmpname() + " EMPLOYEE AGE IS : " +
                     empd.getEmpage() + " EMPLOYEE SALARY P/A IS : " + empd.getEmpsal());
