@@ -1,5 +1,7 @@
 package collections;
 
+import java.util.Objects;
+
 public class Employee {
 
     private int id;
@@ -31,5 +33,27 @@ public class Employee {
 
     public String getDept() {
         return dept;
+    }
+
+    @Override
+    public String toString() {
+        return "Employee{ id=" + id + ", salary=" + salary +", name='" + name + "', dept='" + dept + "'}";
+    }
+
+    public String toJson(){
+        return null;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Employee)) return false;
+        Employee employee = (Employee) o;
+        return getId() == employee.getId() && Objects.equals(getName(), employee.getName());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getId(), getName());
     }
 }

@@ -37,8 +37,10 @@ public class PracticeLists {
         emlList1.add(new Employee(1, 1000, "sdfsdf", "dev"));
         emlList1.add(new Employee(2, 1000, "dfgdfgh", "qa"));
         empList.addAll(emlList1);
+        emlList1.get(1);
 
         List<Employee> employeeList = new LinkedList<>();
-
+        // [1,2,3,2,4,5,6,2] -> list LinkedList
+        // {1,2,3,4,5,6}     -> set  HashSet, LinkedLashSet
     }
 }
