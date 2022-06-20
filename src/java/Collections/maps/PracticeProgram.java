@@ -61,12 +61,19 @@ class BankDetails
     public void setBankLoc(String bankLoc) {
         this.bankLoc = bankLoc;
     }
+
+    @Override
+    public String toString() {
+        return
+                "ACCOUNT NUMBER IS ::" + accNo +" ACCOUNT HOLDER NAME IS ::" + accName  +", ACCOUNT BALANCE IS ::=" + accBal +
+                " ACCOUNT HOLDER PHONE NUMBER IS ::" + accPhno  +" ACCOUNT HOLDER BANK LOCATION IS ::" + bankLoc
+                ;
+    }
 }
 public class PracticeProgram {
     public static void main(String[] args) {
         ArrayList<BankDetails> arrbank = new ArrayList<>();
         LinkedList<BankDetails> linklbank = new LinkedList<>();
-        Map<Integer,String> mapdetails = new HashMap<>();
         Map<Integer,BankDetails> mapBank = new HashMap<>();
         arrbank.add(new BankDetails(2226,"MAHESH",5000,"9490782278","KAVALI"));
         arrbank.add(new BankDetails(2018,"VENU  ",5500,"8096699126","KAVALI"));
@@ -92,16 +99,22 @@ public class PracticeProgram {
                     "   ACCOUNT BALANCE IS :: "+arrbank1.getAccBal()+ "   ACCOUNT HOLDER PHONE NUMBER IS ::"+arrbank1.getAccPhno()+
                     "   ACCOUNT HOLDER BANK LOCATION IS ::"+arrbank1.getBankLoc());
         }
-        mapdetails.put(1,"MAHESH");
-        mapdetails.put(2,"VENU  ");
-        mapdetails.put(3,"SRINU ");
-        mapdetails.put(4,"HAFEEZ");
-        mapdetails.put(5,"RAJESH");
-        System.out.println("---------------DETAILS USING MAP  IS ------------------------------");
-        for(Map.Entry<Integer,String> map:mapdetails.entrySet())
-        {
-            System.out.println("KEY IS ::"+map.getKey()+"    VALUE IS ::"+map.getValue());
-        }
+        BankDetails bank = new BankDetails(2226,"MAHESH",5000,"9490782278","KAVALI");
+        BankDetails bank1 = new BankDetails(2018,"VENU  ",5500,"8096699126","KAVALI");
+        BankDetails bank2 = new BankDetails(3074,"SRINU ",6000,"9948312013","NELLORE");
+        BankDetails bank3 = new BankDetails(3145,"HAFEEZ",3000,"8466999045","NELLORE");
+        BankDetails bank4 =new BankDetails(6170,"RAJESH",1000,"8466999095","KAVALI");
+         mapBank.put(1,bank);
+         mapBank.put(2,bank1);
+         mapBank.put(3,bank2);
+         mapBank.put(4,bank3);
+         mapBank.put(5,bank4);
+         BankDetails BankPrint = mapBank.get(1);
+         BankDetails BankPrint1 = mapBank.get(5);
+        System.out.println("---------------ACCOUNT DETAILS USING MAP IS ------------------------------");
+             System.out.println(BankPrint.toString());
+             System.out.println(BankPrint1.toString());
+
     }
 
 }
