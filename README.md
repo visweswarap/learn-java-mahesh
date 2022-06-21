@@ -61,6 +61,7 @@
       - Table (HashTable)
       - Trees --
 - Exceptions
+  - User defined exceptions
 
 ### Advanced Java (Web and Database) -
   - JDBC +
