@@ -2,28 +2,21 @@ package exceptions;
 
 public class PracticeExcep {
 
-    public static void main(String[] args) throws MyException {
+    public static void main(String[] args) throws Exception {
         System.out.println("Starting..........");
 
-        try {
-            int a = 10;
-            int b = 0;
-
-            int c = a / b;
-
-            String s = null;
-            if (s.equals("ASDF")){
-                System.out.println("sdfgsdfgsfdg");
-            }
-        } catch (ArithmeticException ex){
-            throw new MyException(ex.getMessage());
-        } finally {
-            System.out.println("Finalll.................");
-            // Close connection
-            // Release memory
-        }
-
         System.out.println("finished program");
+
+        message(null);
+    }
+
+    static String message(String message) throws Exception {
+        int a = 10;
+        if(message == null){
+            throw new MyException("You passed null message");
+        }
+        System.out.println("message");
+        return "Success";
     }
 
 }
